@@ -1,7 +1,15 @@
 # Readme
 
+# &#x1f388; URL
 https://fuka161cm.github.io/
 
-- resume.mdをindex.htmlに変換
-`pandoc resume.md -o index.html`
-- 生成されたindex.html内にheadタグを追加し、クラスレスCSSを配置
+# 使用ツール
+- ドキュメント変換ツール
+  - [Pandoc](https://pandoc.org/)
+- クラスレスCSSフレームワーク
+  - [Water.css](https://watercss.kognise.dev/)
+
+# 変換手順覚書
+1.  `resume.md`を`index.html`に変換
+  - `pandoc resume.md -o index.html`
+2.  生成された`index.html`内に`<head>`タグを追加し、CSSリンクを配置
