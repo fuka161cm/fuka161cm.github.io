@@ -8,6 +8,7 @@ https://fuka161cm.github.io/
   - [Water.css](https://watercss.kognise.dev/)
 
 # 変換手順覚書
-1. resume.md を index.htmlに変換<br>
-  `pandoc resume.md -o index.html`
-2.  生成された index.html 内に`<head>`タグを追加し、CSSリンクを配置
+1. resume.md に変更を加える 
+2. resume.md を index.html に変換<br>
+  `pandoc docs/resume.md -o docs/index.html`
+3.  生成された index.html 内に`<head>`タグを追加してCSSリンクを配置
